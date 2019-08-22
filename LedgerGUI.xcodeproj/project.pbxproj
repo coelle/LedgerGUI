@@ -292,10 +292,9 @@
 			};
 			buildConfigurationList = 17A47E071D1AC04D0010998A /* Build configuration list for PBXProject "LedgerGUI" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
