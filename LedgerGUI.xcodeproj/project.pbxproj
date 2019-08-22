@@ -280,12 +280,12 @@
 					17A47E0B1D1AC04D0010998A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = UDE8EVDD92;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1030;
 					};
 					17A47E1A1D1AC04E0010998A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = UDE8EVDD92;
-						LastSwiftMigration = 0920;
+						LastSwiftMigration = 1030;
 						TestTargetID = 17A47E0B1D1AC04D0010998A;
 					};
 				};
@@ -527,8 +527,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -544,8 +543,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -561,8 +559,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DISABLE_SAFETY_CHECKS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LedgerGUI.app/Contents/MacOS/LedgerGUI";
 			};
 			name = Debug;
@@ -579,8 +576,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_DISABLE_SAFETY_CHECKS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LedgerGUI.app/Contents/MacOS/LedgerGUI";
 			};
 			name = Release;

@@ -52,7 +52,7 @@ struct BalanceTreeNode: Tree {
 
 extension Array {
     mutating func index(where f: (Element) -> Bool, orAppend element: Element) -> Index {
-        if let index = index(where: f) {
+        if let index = firstIndex(where: f) {
             return index
         }
 

@@ -33,9 +33,9 @@ class RegisterViewController: NSViewController {
         tableView.dataSource = delegate
         tableView.delegate = delegate
         tableView.headerView = nil
-        let nib = NSNib(nibNamed: NSNib.Name(rawValue: "TransactionCell"), bundle: nil)
+        let nib = NSNib(nibNamed: "TransactionCell", bundle: nil)
         tableView.register(nib, forIdentifier: NSUserInterfaceItemIdentifier(rawValue: "TransactionCell"))
-        let postingNib = NSNib(nibNamed: NSNib.Name(rawValue: "PostingCell"), bundle: nil)
+        let postingNib = NSNib(nibNamed: "PostingCell", bundle: nil)
         tableView.register(postingNib, forIdentifier: NSUserInterfaceItemIdentifier(rawValue: "PostingCell"))
         
         let scrollView = NSScrollView()
@@ -94,7 +94,7 @@ class RegisterDelegate: NSObject, NSTableViewDelegate, NSTableViewDataSource {
 
         let font = NSFont.systemFont(ofSize: NSFont.systemFontSize)
         let accountFont = posting.virtual ? font.italic : font
-        var attributes: [NSAttributedStringKey: AnyObject] = [.font: accountFont]
+        var attributes: [NSAttributedString.Key: AnyObject] = [.font: accountFont]
         if highlighted {
             attributes[.backgroundColor] = NSColor.yellow
         }

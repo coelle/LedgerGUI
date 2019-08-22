@@ -17,11 +17,11 @@ class LedgerWindowController: NSWindowController {
         didSearch?(sender.stringValue)
     }
     var balanceViewController: BalanceViewController? {
-        return contentViewController?.childViewControllers.compactMap( { $0 as? BalanceViewController }).first
+        return contentViewController?.children.compactMap( { $0 as? BalanceViewController }).first
     }
 
     var registerViewController: RegisterViewController? {
-        return contentViewController?.childViewControllers.compactMap( { $0 as? RegisterViewController }).first
+        return contentViewController?.children.compactMap( { $0 as? RegisterViewController }).first
     }
 }
 
